@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "44ZjugA/RGR5YSPTr0Yp9ocD6tlHtxp+JQ0lHmq0ITsPUrF1CKEmXmVhmvzciKy59g0uHHeJ6Q2dUugWHrDzfQ==",
+  "dgSpecHash": "A7FgoTeVwQdQsKIdq/q62vGLtXPkFLv9F0mt9A6nwqsT3Jn7Q164yEKx+/3hpATav+Xb65PkzVX6Xwb8wlPSng==",
   "success": true,
   "projectFilePath": "C:\\Users\\ArneRanvik\\Documents\\Repositories\\udemy-dotnet-microservices\\MangoRestaurant\\ProductAPI\\ProductAPI.csproj",
   "expectedPackageFiles": [

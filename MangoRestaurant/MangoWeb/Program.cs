@@ -1,4 +1,15 @@
+using MangoWeb;
+using MangoWeb.Services;
+using MangoWeb.Services.IServices;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Static dependancy
+SD.ProductAPIBase = builder.Configuration["ServiceUrls:ProductAPI"];
+
+// Dependency Injection
+builder.Services.AddHttpClient<IProductService, ProductService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
